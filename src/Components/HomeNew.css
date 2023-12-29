@@ -1,0 +1,112 @@
+.home-container {
+  background-image: url("https://trydo.rainbowit.net/assets/images/bg/bg-image-28.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 950px;
+  width: 100%;
+  position: relative;
+  margin-top: -100px;
+  z-index: -1;
+
+  color: white;
+}
+.home-text-container {
+  position: absolute;
+  /* width: 550px; */
+  width: 70%;
+  top: 35%;
+  left: 22%;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.home-text-container h3 {
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.home-text-container h1 {
+  font-size: 53px;
+  word-spacing: 5px;
+}
+.home-text-container > p {
+  font-size: 58px;
+  word-spacing: 5px;
+  margin: 15px 0px;
+}
+.home-text-container > span {
+  color: #f9004d;
+  font-size: 58px;
+}
+@media screen and (max-width: 1600px) {
+  .home-container {
+    height: 681px;
+  }
+  .home-text-container {
+    position: absolute;
+    /* width: 550px; */
+    top: 35%;
+    left: 8%;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home-container {
+    height: 700px;
+  }
+  .home-text-container {
+    top: 35%;
+    left: 4%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .home-container {
+    position: relative;
+    height: 646px;
+  }
+  .home-text-container {
+    top: 35%;
+    left: 5%;
+  }
+  .home-text-container h3 {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 100;
+  }
+  .home-text-container h1 {
+    font-size: 48px;
+    word-spacing: 5px;
+  }
+  .home-text-container > p,
+  .home-text-container > span {
+    font-size: 48px;
+    word-spacing: 5px;
+    margin: 15px 0px;
+  }
+}
+/* 762px */
+@media screen and (max-width: 762px) {
+  .home-container {
+    position: relative;
+    height: 442px;
+  }
+  .home-text-container {
+    top: 35%;
+    left: 5%;
+    width: 90%;
+  }
+  .home-text-container h3 {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 100;
+  }
+  .home-text-container h1 {
+    font-size: 32px;
+  }
+  .home-text-container p,
+  .home-text-container > span {
+    font-size: 32px;
+  }
+}
