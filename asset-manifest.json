@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VishnuDabi/PortFolio-.git/static/css/main.2a0dd328.css",
+    "main.js": "/VishnuDabi/PortFolio-.git/static/js/main.d16d691b.js",
+    "static/js/787.a4b45000.chunk.js": "/VishnuDabi/PortFolio-.git/static/js/787.a4b45000.chunk.js",
+    "index.html": "/VishnuDabi/PortFolio-.git/index.html",
+    "main.2a0dd328.css.map": "/VishnuDabi/PortFolio-.git/static/css/main.2a0dd328.css.map",
+    "main.d16d691b.js.map": "/VishnuDabi/PortFolio-.git/static/js/main.d16d691b.js.map",
+    "787.a4b45000.chunk.js.map": "/VishnuDabi/PortFolio-.git/static/js/787.a4b45000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a0dd328.css",
+    "static/js/main.d16d691b.js"
+  ]
+}
