@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800;900&display=swap");
+.about-me-main-container {
+  display: flex;
+
+  position: relative;
+  justify-content: center;
+  justify-self: center;
+  box-sizing: border-box;
+  font-family: Poppins sans-serif;
+}
+.about-container {
+  width: 90%;
+
+  display: flex;
+  margin: 100px;
+}
+.about-image-container {
+  flex: 40%;
+  border-radius: 8px;
+  background-image: url("https://trydo.rainbowit.net/assets/images/about/about-8.jpg");
+  background-repeat: no-repeat;
+
+  background-position: 100%;
+  object-fit: fill;
+}
+.about-me-text-container {
+  flex: 60%;
+  padding: 30px;
+}
+.about-me-text-container > h1 {
+  font-size: 60px;
+  color: white;
+  padding: 5px;
+  line-height: 1.8;
+}
+.about-me-text-container > p {
+  padding: 0px 8px;
+  font-weight: 300;
+  color: rgba(198, 201, 216, 0.75);
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+}
+
+.skill-menu {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+}
+.skill-menu > li > span {
+  position: relative;
+}
+.skill-menu > li > span:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  background-color: #f9004d;
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+.bg-red {
+  background-color: red;
+  color: #f9004d;
+}
+.skill-menu > li > span:hover:before {
+  transform: scaleX(1);
+  cursor: pointer;
+  transform-origin: left;
+}
+
+.skill-menu li {
+  padding: 0px 10px 15px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.skill-data-container ul {
+  list-style-type: none;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+}
+
+.skill-data-container ul li {
+  display: block;
+  padding: 0px 10px 15px;
+  color: rgba(198, 201, 216, 0.75);
+}
+.skill-data-container > ul > a {
+  padding: 2px 12px;
+  color: rgba(198, 201, 216, 0.75);
+  cursor: pointer;
+  text-decoration: none;
+}
+.skill-data-container:hover {
+  border-bottom: 5px #f9004d;
+}
+
+/* media query */
+@media screen and (max-width: 1600px) {
+  .about-me-text-container {
+    padding: 30px 15px;
+  }
+  .about-me-text-container > h1 {
+    font-size: 55px;
+  }
+  .about-me-text-container p,
+  ul,
+  li,
+  span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-container {
+    width: 95%;
+    margin: 100px 20px;
+    display: flex;
+  }
+  .about-image-container {
+    aspect-ratio: 2/2;
+  }
+  .about-me-text-container > h1 {
+    font-size: 48px;
+  }
+  .about-me-text-container > p {
+    font-size: 18px;
+  }
+  .skill-menu > li {
+    padding: 0px 10px 2px 6px;
+    font-size: 17px;
+  }
+
+  .skill-data-container {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about-container {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+
+    margin: auto;
+  }
+  .about-me-text-container > h1 {
+    font-size: 32px;
+  }
+  .about-me-text-container > p {
+    font-size: 18px;
+  }
+  .about-image-container {
+    background-position: 50%;
+    background-size: contain;
+  }
+  .skill-menu > li {
+    padding: 0px 10px 2px 6px;
+    font-size: 17px;
+  }
+}
+/* 762px */
+@media screen and (max-width: 762px) {
+  .about-me-text-container > h1 {
+    font-size: 24px;
+  }
+  .skill-menu > li {
+    padding: 0px 10px 20px 10px;
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .about-me-text-container > h1 {
+    font-size: 20px;
+  }
+  .about-me-text-container > p {
+    font-size: 16px;
+  }
+}

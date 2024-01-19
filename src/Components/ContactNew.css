@@ -1,0 +1,181 @@
+.contact-container {
+  background-color: #1d1d24;
+  width: 100%;
+  /* height: 850px; */
+  height: auto;
+}
+
+.contact-inner-container {
+  width: 75%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.contackt-crd-container {
+  border: 1px solid red;
+  flex: 45%;
+}
+.card {
+  width: 45%;
+  /* height: 580px; */
+  margin: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.contact-container-image {
+  border: none;
+  background-image: url("https://trydo.rainbowit.net/assets/images/about/about-9.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact-form-title h1 {
+  font-size: 60px;
+  color: white;
+  padding: 15px;
+}
+.contact-form-title p {
+  font-size: 20px;
+  color: rgba(198, 201, 216, 0.75);
+  padding: 5px 15px;
+}
+.contact-form-title > p > span {
+  color: white;
+}
+.contact-form-title > form {
+  padding-top: 15px;
+}
+
+.input-control {
+  margin: 10px 15px;
+  width: 85%;
+  padding: 10px 15px;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 16px;
+  background-color: transparent;
+  border: #535355 1px solid;
+  color: white;
+}
+.input-control:focus {
+  border: 2px solid hsla(0, 0%, 100%, 0.2);
+}
+.submit-form-btn-container {
+  text-align: center;
+  width: 80%;
+  height: 120px;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  margin-left: 15px;
+}
+.submit-form-btn-container > button {
+  padding: 20px 60px;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #f9004d;
+  color: white;
+  font-size: 18px;
+}
+.submit-form-btn:hover {
+  position: relative;
+  border: 2px solid #f9004d;
+  color: #f9004d;
+  margin-bottom: 20px;
+  transition: 0.6s;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+textarea {
+  height: 100px;
+}
+
+@media screen and (max-width: 1500px) {
+  .contact-container-image {
+    /* background-size: cover; */
+    height: 500px;
+  }
+  .contact-inner-container {
+    width: 90%;
+  }
+  .contact-form-title > h1 {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact-container-image {
+    height: 450px;
+  }
+  .contact-form-title > h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .contact-container-image {
+    /* height: 720px; */
+    width: 100%;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    /* object-fit: contain; */
+  }
+  .contact-inner-container {
+    flex-direction: column-reverse;
+  }
+  .contact-container {
+    height: auto;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .contact-form-title {
+    padding-left: 10%;
+  }
+  .contact-form-title > h1 {
+    font-size: 24px;
+  }
+  .contact-form-title > P {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .contact-form-title > h1 {
+    font-size: 22px;
+  }
+
+  .submit-form-btn {
+    padding: 5% 15%;
+  }
+}
+@media screen and (max-width: 345px) {
+  .contact-form-title > h1 {
+    font-size: 20px;
+  }
+  .contact-inner-container {
+    padding-top: 0px;
+  }
+  .contact-container-image {
+    height: 385px;
+  }
+}
+
+/* form data js css */
+.form-data {
+  color: white;
+  border: 1px solid;
+  width: 50%;
+}
+td {
+  padding: 10px;
+}
+.error-msg {
+  color: #f9004d;
+  margin-left: 20px;
+  font-size: 14px;
+}

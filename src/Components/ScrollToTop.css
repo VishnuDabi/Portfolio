@@ -1,0 +1,11 @@
+.scroll-to-top {
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid ghostwhite;
+  color: white;
+  font-weight: 900;
+  position: fixed;
+
+  top: 90%;
+  right: 10%;
+}

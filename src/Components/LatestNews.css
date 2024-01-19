@@ -1,0 +1,212 @@
+.latest-news-container {
+  background-color: black;
+}
+.latest-news-title-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+.latest-news-title-container > h1 {
+  font-size: 60px;
+
+  /* width: 45%; */
+  color: white;
+  text-align: center;
+}
+.latest-news-title-container > p {
+  font-size: 20px;
+  /* width: 45%; */
+
+  padding: 15px 0px;
+  color: rgba(198, 201, 216, 0.75);
+  text-align: center;
+}
+.latest-news-cards-container {
+  /* width: 80%; */
+  margin: auto;
+  padding: 50px 0px 100px;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.latest-news-card {
+  width: 360px;
+  height: 532px;
+  margin: 15px;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+  border: none;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.latest-news-card-img-1 {
+  background-image: url("https://trydo.rainbowit.net/assets/images/blog/blog-01.jpg");
+  background-repeat: no-repeat;
+}
+.latest-news-card-img-2 {
+  background-image: url("https://trydo.rainbowit.net/assets/images/blog/blog-02.jpg");
+  background-repeat: no-repeat;
+}
+.latest-news-card-img-3 {
+  background-image: url("https://trydo.rainbowit.net/assets/images/blog/blog-03.jpg");
+  background-repeat: no-repeat;
+}
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: all 0.5s;
+}
+.latest-news-card:hover .child,
+.latest-news-card:focus .child {
+  transform: scale(1.1);
+}
+.latest-news-card:hover .child:before,
+.latest-news-card:focus .child:before {
+  display: block;
+}
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(249, 0, 77, 0.012),
+    rgba(249, 0, 77, 0.745)
+  );
+  /* background-color: rgba(249, 0, 77, 0.745); */
+}
+
+.news-card-text {
+  margin: auto;
+  height: 40%;
+  width: 90%;
+  padding: 0px 35px;
+  text-align: start;
+  position: relative;
+  top: 76%;
+}
+.news-card-text p {
+  font-size: 16px;
+  padding: 10px 0px;
+  color: rgba(198, 201, 216, 0.75);
+  font-weight: 300;
+  font-weight: bold;
+}
+.news-card-text > h1 {
+  color: white;
+  font-size: 24px;
+}
+.view-details-btn {
+  padding: 10px 35px;
+  margin-top: 35px;
+  border: 2px solid rgba(198, 201, 216, 0.75);
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+/* hover effects */
+
+.latest-news-card:hover {
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+}
+.latest-news-card:hover .news-card-text {
+  transform: translateY(-100px);
+  transition: 0.4s ease-in-out;
+}
+.latest-news-card:hover .view-details-btn {
+  color: white;
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border: 2px solid #f9004d;
+}
+.view-details-btn:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .latest-news-title-container {
+    width: 100%;
+  }
+  .latest-news-card {
+    position: relative;
+    width: 305px;
+    height: 500px;
+    margin: 10px;
+  }
+  .news-card-text {
+    padding: 0px 15px;
+  }
+  .latest-news-title-container > h1,
+  .latest-news-title-container > p {
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .latest-news-title-container {
+    width: 100%;
+  }
+  .latest-news-title-container > h1 {
+    font-size: 32px;
+  }
+  .latest-news-title-container > p {
+    font-size: 18px;
+    padding: 15px 0px;
+  }
+  .latest-news-cards-container {
+    justify-content: flex-start;
+    width: 98%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 773px) {
+  .latest-news-title-container {
+    width: 90%;
+  }
+  .latest-news-cards-container {
+    justify-content: center;
+  }
+  .latest-news-card {
+    width: 55%;
+    height: 450px;
+    margin: 10px;
+  }
+  .news-card-text {
+    word-spacing: 5px;
+    letter-spacing: -1px;
+  }
+  .news-card-text > h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .latest-news-card {
+    width: 390px;
+    height: 520px;
+    margin: 10px;
+  }
+  .news-card-text {
+    transform: translateY(5px);
+  }
+  .news-card-text > h1 {
+    font-size: 25px;
+  }
+  .child {
+    background-size: 100% 100%;
+  }
+}

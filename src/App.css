@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body:nth-child(even) {
+  background-color: rgb(27, 27, 27);
+}
+
+/* .main-app:nth-child(even) {
+  background-color: rgb(66, 64, 64);
+  color: white;
+}
+.main-app:nth-child(odd) {
+  background-color: black;
+} */
