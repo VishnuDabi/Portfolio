@@ -7,10 +7,12 @@
 
 .main-container {
   background-image: url(https://watermark.lovepik.com/photo/50033/1047.jpg_wh1200.jpg);
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  /* background-position: center; */
+  height: 110vh;
 }
 
 * {
@@ -43,7 +45,7 @@ form .head {
   padding: 30px;
   border: transparent 1px solid;
   border-radius: 10px;
-  width: 50%;
+  width: 65%;
   display: block;
   animation-name: glass;
   animation-duration: 2s;
@@ -71,6 +73,7 @@ form.two {
     background-color: transparent;
     backdrop-filter: blur(0px);
   }
+
   100% {
     background-color: transparent;
     backdrop-filter: blur(15px);
@@ -99,14 +102,17 @@ p.caption {
   z-index: 999;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .btn-conatiner {
   display: flex;
   justify-content: space-between;
 }
+
 .label {
   color: white;
   font-size: 20px;
 }
+
 .show-pwd-container {
   position: relative;
   width: 100%;
@@ -138,6 +144,7 @@ p.caption {
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   .show-pwd-container {
     width: 60%;
   }
@@ -165,4 +172,43 @@ input[type="button"]:hover {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
   font-size: 17px;
+}
+
+@media screen and (max-width:650px) {
+
+  form.one {
+    left: 2%;
+    right: 2%;
+    top: 20vh;
+    padding: 30px 10px;
+  }
+
+  form.two {
+    left: 2%;
+    right: 2%;
+    top: 32vh;
+    padding: 30px 10px;
+  }
+
+  .one,
+  .two {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .input-field {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .btn-conatiner:nth-child(n) {
+    display: block;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+  }
 }
