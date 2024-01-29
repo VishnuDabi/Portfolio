@@ -7,19 +7,12 @@
 
 .main-container {
   background-image: url(https://watermark.lovepik.com/photo/50033/1047.jpg_wh1200.jpg);
-<<<<<<< HEAD
 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: center; */
+
   height: 110vh;
-=======
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
 }
 
 * {
@@ -52,11 +45,7 @@ form .head {
   padding: 30px;
   border: transparent 1px solid;
   border-radius: 10px;
-<<<<<<< HEAD
   width: 65%;
-=======
-  width: 50%;
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
   display: block;
   animation-name: glass;
   animation-duration: 2s;
@@ -84,10 +73,7 @@ form.two {
     background-color: transparent;
     backdrop-filter: blur(0px);
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
   100% {
     background-color: transparent;
     backdrop-filter: blur(15px);
@@ -116,26 +102,17 @@ p.caption {
   z-index: 999;
   background-color: rgba(0, 0, 0, 0);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
 .btn-conatiner {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
 .label {
   color: white;
   font-size: 20px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
 .show-pwd-container {
   position: relative;
   width: 100%;
@@ -167,10 +144,7 @@ p.caption {
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-<<<<<<< HEAD
 
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
   .show-pwd-container {
     width: 60%;
   }
@@ -199,7 +173,6 @@ input[type="button"]:hover {
 
   font-size: 17px;
 }
-<<<<<<< HEAD
 
 @media screen and (max-width:650px) {
 
@@ -239,5 +212,3 @@ input[type="button"]:hover {
     padding: 10px 20px;
   }
 }
-=======
->>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
