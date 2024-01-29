@@ -4,6 +4,7 @@
   justify-content: space-between;
   color: white;
 }
+<<<<<<< HEAD
 
 input.login-btn {
   padding: 10px 40px;
@@ -12,3 +13,8 @@ input.login-btn {
 @media screen and (max-width:650px) {
   
 }
+=======
+input.login-btn {
+  padding: 10px 40px;
+}
+>>>>>>> c985f5c130f52451e2c67edc1426577951b2b24b
