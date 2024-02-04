@@ -9,6 +9,7 @@ const Protected = (props) => {
   const [cookie, setCookies] = useCookies("login");
 
   useEffect(() => {
+    setCookies('login', 'true')
     let login = cookie.login;
     // console.log(login);
     setLogin(login);
