@@ -22,7 +22,7 @@ const Login = () => {
   useEffect(() => {
     let login = cookie.login;
     if (login) {
-      navigate("/home");
+      navigate("/");
     }
   }, [cookie.login]);
   const loginDataHandler = (event) => {

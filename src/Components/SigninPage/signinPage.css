@@ -7,12 +7,10 @@
 
 .main-container {
   background-image: url(https://watermark.lovepik.com/photo/50033/1047.jpg_wh1200.jpg);
-
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: center; */
-  height: 110vh;
+  height: 115vh;
 }
 
 * {
@@ -145,9 +143,9 @@ p.caption {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
-  .show-pwd-container {
+  /* .show-pwd-container {
     width: 60%;
-  }
+  } */
 }
 
 ::placeholder {
