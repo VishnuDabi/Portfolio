@@ -125,7 +125,7 @@
   transition: all 0.6s ease-in;
   background-color: #101010;
   z-index: 2;
-  position: absolute;
+  position: relative;
 
   padding: 15px;
   overflow: hidden;
